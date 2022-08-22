@@ -1,5 +1,5 @@
-import createElement from '../../assets/lib/create-element';
-import escapeHtml from '../../assets/lib/escape-html';
+import createElement from '../../assets/lib/create-element.js';
+import escapeHtml from '../../assets/lib/escape-html.js';
 
 import Modal from '../Modal/index.js'
 
