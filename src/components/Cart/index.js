@@ -60,18 +60,18 @@ export default class Cart {
     <div class="cart-product" data-product-id="${product.id
       }">
       <div class="cart-product__img">
-       <img src="/src/assets/images/products/${product.image}" alt="product">
+       <img src="./src/assets/images/products/${product.image}" alt="product">
       </div>
       <div class="cart-product__info">
         <div class="cart-product__title">${escapeHtml(product.name)}</div>
         <div class="cart-product__price-wrap">
           <div class="cart-counter">
             <button type="button" class="cart-counter__button cart-counter__button_minus">
-              <img src="/src/assets/images/icons/square-minus-icon.svg" alt="minus">
+              <img src="./src/assets/images/icons/square-minus-icon.svg" alt="minus">
             </button>
             <span class="cart-counter__count">${count}</span>
             <button type="button" class="cart-counter__button cart-counter__button_plus">
-              <img src="/src/assets/images/icons/square-plus-icon.svg" alt="plus">
+              <img src="./src/assets/images/icons/square-plus-icon.svg" alt="plus">
             </button>
           </div>
           <div class="cart-product__price">€${product.price.toFixed(2)}</div>
@@ -184,7 +184,7 @@ export default class Cart {
           <p>
             Order successful! Your order is being cooked :) <br>
             We’ll notify you about delivery time shortly.<br>
-            <img src="/src/assets/images/delivery.gif">
+            <img src="./src/assets/images/delivery.gif">
           </p>
         </div>`))
         }
@@ -199,7 +199,7 @@ export default class Cart {
   <p>
     Order successful! Your order is being cooked :) <br>
     We’ll notify you about delivery time shortly.<br>
-    <img src="/src/assets/images/delivery.gif">
+    <img src="./src/assets/images/delivery.gif">
   </p>
 </div>`))
 
